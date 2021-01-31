@@ -18,6 +18,8 @@ class CreateProductTable extends Migration
             $table->text("name");
             $table->longText("descripiton");
             $table->longText("abc");
+            $table->longText("dfe");
+            $table->longText("cdb");
             $table->timestamps();
         });
     }
