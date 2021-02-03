@@ -24,6 +24,6 @@ Route::middleware(['auth', 'verified'])->get('/panel', function () {
 Route::group(['middleware' => ['auth','isAdmin'],'prefix'=>'admin'], function () {
     Route::get('deneme', function () {
         return "middle";
-        
+
     });
 });
