@@ -26,5 +26,4 @@ Route::group(['middleware' => ['auth','isAdmin'],'prefix'=>'admin'], function ()
 
         Route::resource('quizzes',QuizController::class);
 
-
 });
